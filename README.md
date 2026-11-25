@@ -20,3 +20,24 @@ headroom above the sky to brighten into.
 
 The wave technique is afl_ext's MIT-licensed "Very fast procedural ocean".
 On mobile or with Reduce Motion on, a still vector seascape shows instead.
+
+## Install
+
+Register this repository as a plugin marketplace, then install the mod from it:
+
+```
+/plugin marketplace add finkelscott/shifting-tide
+```
+
+```
+/plugin install shifting-tide@finkelscott
+```
+
+Both steps are needed: the first tells Claude Code where to look, the second
+installs the mod it finds there.
+
+## Developing
+
+`.claude-plugin/types/` holds generated type stubs and is not committed, so
+`tsc -p tsconfig.json --noEmit` only runs once those are regenerated locally.
+
