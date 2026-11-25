@@ -1,0 +1,16 @@
+{
+  "name": "shifting-tide",
+  "owner": {
+    "name": "Scott Finkel"
+  },
+  "metadata": {
+    "description": "A monochrome raymarched ocean behind the Claude desktop conversation, with cloud by day, stars by night, and a heat field trailing the pointer."
+  },
+  "plugins": [
+    {
+      "name": "shifting-tide",
+      "source": "./",
+      "description": "A slowly rolling monochrome ocean behind the conversation, under drifting cloud by day and a field of stars by night, with a heat field trailing the pointer."
+    }
+  ]
+}
